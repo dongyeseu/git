@@ -1,3 +1,11 @@
+# 生成ssh
+
+```bash
+ssh-keygen -t rsa -C "邮箱"
+```
+
+
+
 # 如何查看自己的密钥
 
 ```bash
