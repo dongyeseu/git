@@ -91,3 +91,25 @@ git reset --hard HEAD^^^
 git reset --hard HEAD~3
 ```
 
+
+
+# 如何回退版本后使github上和本地库保持一致
+
+```bash
+e.g. 
+# 首先现在删除了一个文件
+rm -r "1.txt"
+git add "1.txt"
+git commit -m "delete 1.txt"
+git push
+
+# 之后恢复到过去的一个版本
+git reset --hard HEAD^
+
+# 将github上的版本和本地库的版本同步
+git push -f -u origin master
+
+# 然后同步
+git pull 
+```
+
