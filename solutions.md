@@ -9,6 +9,8 @@ cat ~/.ssh/id_ras.pu
 ```bash
 git add ***
 git commit -m 'comment' 
+
+git push -u origin main #第一次提交时
 git push origin main
 ```
 
