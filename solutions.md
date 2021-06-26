@@ -15,4 +15,9 @@ git push origin main
 # 如何将远程仓库的内容同步到本地仓库
 ```bash
 git pull origin
+
+git pull origin master
 ```
+
+
+
