@@ -113,3 +113,14 @@ git push -f -u origin master
 git pull 
 ```
 
+
+
+# merge冲突的解决
+
+```bash
+1) 编辑文件，删除特殊符号
+2）把文件修改到满意的程度，保存退出
+3）git add [文件名]
+4) git commit -m "日志信息"
+```
+
