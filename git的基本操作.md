@@ -70,6 +70,6 @@ git commit -m "comment"
 git push --set-upstream origin [分支名]
 git checkout master
 git merge [分支名]
-git push
+git push origin main
 ```
 
