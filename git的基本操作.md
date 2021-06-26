@@ -70,6 +70,21 @@ git commit -m "comment"
 git push --set-upstream origin [分支名]
 git checkout master
 git merge [分支名]
-git push origin main
+git push origin mains
+```
+
+
+
+```bash
+git branch
+1、切换到某分支　　git checkout branchName
+2、创建某分支　　git branch branchName
+3、查看本地所有分支　　git branch
+4、查看远程所有分支　　git branch -r
+5、查看本地和远程所有分支　　git branch -a
+6、删除本地分支　　git branch -d branchName
+7、删除远程分支　　git push origin :branchName　　(":"代表删除)
+9、重命名　　git branch -m oldName newName
+
 ```
 
