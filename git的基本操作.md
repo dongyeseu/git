@@ -69,5 +69,6 @@ git add [file]
 git commit -m "comment"
 git checkout master
 git merge [分支名]
+git push origin main
 ```
 
