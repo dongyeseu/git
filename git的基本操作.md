@@ -32,3 +32,22 @@ git reflog
 git log pretty=oneline
 ```
 
+
+
+```bash
+# 版本回退
+git reset --hard [版本哈希值]
+
+git reset --hard HEAD~1
+
+git reset --hard HEAD^
+```
+
+
+
+```bash
+#比较文件差异
+git diff [文件名]  # 是将工作区的文件和暂存区的文件进行比较
+git diff [本地库中历史版本][文件名] # 是将工作区中的文件和本地库中的历史记录进行比较
+```
+
