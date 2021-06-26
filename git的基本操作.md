@@ -21,3 +21,14 @@ git add [file name]
 git commit -m "commit message" [file name]
 ```
 
+
+
+```bash
+# 查看历史记录
+git log 
+
+git reflog
+
+git log pretty=oneline
+```
+
