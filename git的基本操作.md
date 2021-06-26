@@ -67,7 +67,9 @@ git checkout [分支名]
 git checkout [分支名]
 git add [file]
 git commit -m "comment"
+git push --set-upstream origin [分支名]
 git checkout master
 git merge [分支名]
+git push
 ```
 
