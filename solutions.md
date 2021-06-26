@@ -21,3 +21,35 @@ git pull origin master
 
 
 
+# 如何将远程仓库和本地仓库进行连接
+
+```bash
+# 1. git clone 
+
+git clone git@github.com:dongyeseu/LeetCode.git 
+
+# 2. git remote add origin 
+
+git remote add origin git@github.com:dongyeseu/LeetCode.git
+```
+
+
+
+# 命令行中出现END如何退出
+
+**按q键**
+
+
+
+# 如何设置签名
+
+```bash
+# 项目级别/仓库级别： 仅在当前本地库范围内有效
+git config user.name 
+git config user.email 
+
+# 系统用户级别： 登陆当前操作系统的用户范围
+git config --global user.name 
+git config --global user.email
+```
+
