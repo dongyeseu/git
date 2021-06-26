@@ -62,5 +62,12 @@ git branch -v
 
 # 切换分支 
 git checkout [分支名]
+
+# 如何将分支的内容合并到master上
+git checkout [分支名]
+git add [file]
+git commit -m "comment"
+git checkout master
+git merge [分支名]
 ```
 
