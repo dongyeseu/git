@@ -9,7 +9,7 @@ ssh-keygen -t rsa -C "邮箱"
 # 如何查看自己的密钥
 
 ```bash
-cat ~/.ssh/id_ras.pu
+cat ~/.ssh/id_ras.pub
 ```
 
 
